@@ -2,6 +2,7 @@ venv/
 raw/ 
 data/ 
 *.csv 
+catboost_info/
 
 # 대용량 데이터 폴더 제외
 data/
