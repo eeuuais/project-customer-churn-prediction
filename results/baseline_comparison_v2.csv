@@ -1,0 +1,5 @@
+model,accuracy,auc_roc,f1_score,train_time
+CatBoost,0.7687,0.8485,0.7723,162.3
+XGBoost,0.7689,0.8481,0.7722,10.1
+LightGBM,0.7686,0.8477,0.7714,5.9
+RandomForest,0.7587,0.8357,0.7583,130.6

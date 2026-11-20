@@ -104,4 +104,4 @@ project-customer-churn-prediction/
     ├── v2_feature_engineering/         # 트렌드 피처 추가 버전
     └── temp.ipynb                      # 초기 작업 노트
 ```
-- 원본/가공 데이터(`data/`, `*.csv`)는 용량 때문에 저장소에 포함하지 않았다. Kaggle에서 받아 `data/` 폴더에 두고 01번부터 실행한다.
+- 원본/가공 데이터(`data/`, `*.csv`)는 용량 때문에 저장소에 포함하지 않았다. Kaggle에서 받은 원본 3개 파일을 `data/raw/`에 두고 01번부터 실행하면 `data/labeled/`(이탈 라벨 데이터셋), `data/processed/`(전처리 결과, 학습/검증 분할)가 순서대로 만들어진다.
